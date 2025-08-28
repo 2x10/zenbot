@@ -1,7 +1,7 @@
 {
-  "name": "offhead-bot",
+  "name": "zen-bot",
   "version": "1.3.0",
-  "description": "sexy minecraft bot!",
+  "description": "a minecraft bot with a discord chatbridge",
   "main": "src\\main.js",
   "scripts": {
     "run": "node src\\main.js",
@@ -13,7 +13,7 @@
     "minecraft"
   ],
   "author": "zenDev",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^14.16.3",
     "mineflayer": "^4.0.0",
