@@ -1,0 +1,23 @@
+{
+  "name": "offhead-bot",
+  "version": "1.3.0",
+  "description": "sexy minecraft bot!",
+  "main": "src\\main.js",
+  "scripts": {
+    "run": "node src\\main.js",
+    "deploy-commands": "node src\\discord\\command\\deployCommands.js"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "minecraft"
+  ],
+  "author": "zenDev",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "mineflayer": "^4.0.0",
+    "mineflayer-death-event": "^1.0.0",
+    "mineflayer-tps": "^1.0.1"
+  }
+}

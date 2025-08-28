@@ -1,0 +1,66 @@
+{
+    "minecraft" :  
+    {
+        "server" : 
+        {
+            "name" : "",
+            "version" : "",
+            "ip" : "",
+            "port" : ,
+            "brand": ""
+        },
+
+        "account" : 
+        {
+            "email" : "",
+            "password" : "",
+            "auth": ""
+        },
+
+        "aliases" : 
+        {
+            "whisper": "/w"
+        },
+
+        "prefix": "%",
+        "autoReconnectDelay": 10000,
+        "commandCooldown": 1000
+    },
+
+    "discord" : 
+    {
+        "bot" : {
+            "token" : "",
+            "clientId" : ""
+        },
+
+        "server": {
+            "serverId" : "",
+            "channelId": "" 
+        },
+
+        "webhook": {
+            "chat": {
+                "id": "",
+                "token": ""
+            },
+    
+            "notifications": {
+                "id": "",
+                "token": ""
+            },
+
+            "entry0": {
+                "id": "",
+                "token": ""
+            },
+            "entry1": {
+                "id": "",
+                "token": ""
+            }
+            
+
+        }
+
+    }
+}

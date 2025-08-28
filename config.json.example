@@ -1,0 +1,66 @@
+{
+    "minecraft" :  
+    {
+        "server" : 
+        {
+            "name" : "server name",
+            "version" : "1.12.2",
+            "ip" : "1.1.1.1",
+            "port" : 25565,
+            "brand": "vanilla"
+        },
+
+        "account" : 
+        {
+            "email" : "accountemail@gmail.com",
+            "password" : "123456789",
+            "auth": "microsoft"
+        },
+
+        "aliases" : 
+        {
+            "whisper": "/w"
+        },
+
+        "prefix": "%",
+        "autoReconnectDelay": 10000,
+        "commandCooldown": 1000
+    },
+
+    "discord" : 
+    {
+        "bot" : {
+            "token" : "bot_token_j894r23jf94j39fj394f4j3f.49823j4fj439jf",
+            "clientId" : "client_id_f4io9fj924jj9jfj249jf"
+        },
+
+        "server": {
+            "serverId" : "server_id_382947329847",
+            "channelId": "channel_id_8234723894" 
+        },
+
+        "webhook": {
+            "chat": {
+                "id": "webhook_id_3289472394798329",
+                "token": "webhook_token_fj9324jf9834jf43.f43f89j349jf9"
+            },
+    
+            "notifications": {
+                "id": "webhook_id_3289472394798329",
+                "token": "webhook_token_fj9324jf9834jf43.f43f89j349jf9"
+            },
+
+            "entry0": {
+                "id": "webhook_id_3289472394798329",
+                "token": "webhook_token_fj9324jf9834jf43.f43f89j349jf9"
+            },
+            "entry1": {
+                "id": "webhook_id_3289472394798329",
+                "token": "webhook_token_fj9324jf9834jf43.f43f89j349jf9"
+            }
+            
+
+        }
+
+    }
+}
