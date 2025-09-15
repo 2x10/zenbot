@@ -3,6 +3,7 @@ const packageInfo = require("../package.json")
 const { Worker, MessageChannel } = require('worker_threads');
 
 // hi :3
+// uhm yeah
 
 console.log(`${getTime()} [main] thank you for using ${packageInfo.name} version ${packageInfo.version}! initiating startup sequence.`);
 
