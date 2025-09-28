@@ -5,7 +5,7 @@ module.exports.eventModule = function(client, bot) {
     	console.log(`${getTime()} [discord] logged in as ${readyClient.user.tag}`);
     });
 
-    client.on("ready", () => {
+    client.on("clientReady", () => {
 
         client.user.setActivity("Minecraft")
     })

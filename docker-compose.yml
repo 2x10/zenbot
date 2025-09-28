@@ -1,0 +1,8 @@
+services:
+    app:
+        image: 2x10/zenBot
+        container_name: app
+        build: 
+            context: .
+            dockerfile: Dockerfile
+        restart: always
